@@ -1,4 +1,5 @@
-import 'package:api/view/screenUser.dart';
+import 'package:api/view/example_two.dart';
+import 'package:api/view/screen_user_post.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -16,7 +17,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),
-      home: Screenuser(),
+      home: ExampleTwoApi(),
     );
   }
 }
